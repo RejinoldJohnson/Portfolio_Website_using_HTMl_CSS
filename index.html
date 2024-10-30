@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rejinold - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;0,600;0,700;0,&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color:rgb(0, 0, 33);
+            color : white;
+            font-family:'Poppins',sans-serif;
+        }
+
+        .btn {
+            text-decoration: none;
+            color: inherit; 
+        }
+
+        nav{
+            display:flex;
+            justify-content:space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(164, 90, 234);
+        }
+        
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover{
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        main hr{
+            border:0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left{
+            font-size: 1.5rem;
+        }
+
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 90px 0;
+        }
+
+        .firstSection > div{
+            width: 30%;
+        }
+
+        .leftSection{
+            font-size: 3rem;
+        }
+
+        .leftSection .buttons{
+            padding: 50px 0;
+        }
+
+        .leftSection  .btn{
+            padding: 12px;
+            background:rgb(164, 90, 234);
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+
+        }
+
+        .rightSection img{
+            width: 80%;
+            
+        }
+
+        .purple{
+            color: rgb(164, 90, 234);
+        }
+
+        #element{
+            color: rgb(164, 90, 234);
+
+        }
+
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1{
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box{
+            background: white;
+            width: 78vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 180px;
+        }
+
+        .thirdSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .thirdSection h1{
+            font-size: 1.9rem;
+        }
+
+        .image-top{
+            width: 100px;
+            height: auto;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title{
+            color: rgb(164, 90, 234);
+            font-weight: bold;
+            position: relative;
+            top: 80px;
+            width: 108px;
+            position: relative;
+            font-size: 18px;
+            white-space: nowrap
+        }
+
+        .vertical-duration{
+            position: relative;
+            font-size: 15px;
+            color: gray;
+            margin-top: 5px;
+            top: 90px;
+            white-space: nowrap;
+        }
+
+        .vertical-desc{
+            position: relative;
+            font-size: 15px;
+            color: white;
+            margin-top: 20px;
+            top: 90px;
+            width: 200px;
+        }
+
+        .text-gray{
+            color: grey;
+        }
+
+        footer{
+            background-color:rgb(164, 90, 234);
+            padding: 20px;
+            color: black;
+            
+        }
+
+        .flex {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+            color: white;
+        }
+
+        .footer-first {
+            margin-bottom: 10px; /* Space between header and logos */
+        }
+
+        .footer-second {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-second ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-second ul li {
+            display: inline-block;
+        }
+
+        .footer-second ul li img {
+            width: 36px; /* Adjust size as needed */
+            height: 36px;
+        }
+
+        .footer-rights{
+            text-align: center;
+            color: white;
+            padding: 12px 0;
+            margin-top: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rejinold's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/rejinold-johnson-330964208/" target="_blank">LinkedIn</a></li>
+                    <li><a href="https://github.com/RejinoldJohnson" target="_blank">Github</a></li>
+                    <li><a href="https://leetcode.com/u/user714R/" target="_blank">Leetcode</a></li>
+                    <li><a href="https://www.hackerrank.com/profile/2023_rejinold_c1" target="_blank">HackerRank</a></li>    
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi,My name is <span class="purple">Rejinold Johnson</span> 
+                <div>and I am a passionate <br>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="mailto:rejinold.14@gmail.com" class="btn">Contact Me</a>
+                </div>
+            </div>
+        </div>
+            <div class="rightSection">
+                <img src="analysis.png" alt="">
+            </div>
+        </section>
+
+<hr>
+
+        <section class="secondSection">
+            <span class="text-gray">what I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class ="image-top" src="qwirklogo.png" alt="">
+                    <div class="vertical-title">
+                        Intern 
+                    </div>
+                    <div class="vertical-duration">May 2024 - July 2024</div>
+                    
+                    <ul class="vertical-desc">
+                        <li>WordPress</li>
+                        <li>MS Excel</li>
+                        <li>Canva</li>
+                        <li>Chat GPT and other AI tools</li>
+                    </ul>
+                </div>
+                
+                <div class="vertical">
+                    <img class ="image-top" src="decathlogo.png" alt="">
+                    <div class="vertical-title">
+                        Omni Sport Leader
+                    </div>
+                    <div class="vertical-duration">April 2023 - September 2023</div>
+                    
+                    <ul class="vertical-desc">
+                        <li>Communication</li>
+                        <li>Retail</li>
+                        <li>Sports Events</li>
+                        
+                    </ul>
+                    </div>
+                    
+                <div class="vertical">
+                    <img class ="image-top" src="upGradlogo.png" alt="">
+                    <div class="vertical-title">
+                        Program Management Intern
+                    </div>
+                    <div class="vertical-duration">June 2022 - December 2022</div>
+                    <ul class="vertical-desc">
+                        <li>Google Suite</li>
+                        <li>Canva</li>
+                        <li>Client Relations</li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="flex">
+            <div class="footer-first">
+                <h3>Connect with Me</h3>
+            </div>            
+        </div>
+        
+        <div class="footer-second">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/rejinold-johnson-330964208/" target="_blank">
+                        <img src="icons8-linkedin-96.png" alt="LinkedIn" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/RejinoldJohnson" target="_blank">
+                        <img src="github-mark.png" alt="GitHub" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/rejinoldjohnson" target="_blank">
+                        <img src="icons8-x-logo-100.png" alt="X" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/_rejinold_/" target="_blank">
+                        <img src="icons8-instagram-96.png" alt="Instagram" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+        <div class="footer-rights">&#169; Rejinold Johnson | All rights reserved</div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Data Analyst','Business Analyst'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+    
+</body>
+</html>
